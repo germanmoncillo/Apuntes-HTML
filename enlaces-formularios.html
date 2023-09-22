@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enlaces-Formularios</title>
+</head>
+<body>
+    <h1 id="PaginaInicio">Aprendiendo enlaces y formularios</h1>
+    <h2>Enlaces</h2>
+    <p>Para crear cualquier enlace utilizamos la etiqueta a</p>
+    <h3>enlaces externos</h3>
+    <p>los enlaces externos dirigen a otros sitios web que no pertenecen al mio</p>
+    <a href="https://aulasvirtuales.udistrital.edu.co/course/view.php?id=11467">Click para ingresar al curso de Backend</a>
+    <br>
+    <a href="https://www.udistrital.edu.co/inicio" target="blank">click para ir a la UD</a>
+    <br>
+    <h5>Temario del curso hasta el momento</h5>
+    <ol>
+        <li>
+            <a href="http://127.0.0.1:5500/Actividadweb/index.html" target="_blank">Ejercicio de pagina web</a>
+            <a href="http://127.0.0.1:5500/peliculas.html" target="_blank">Ejercicio de peliculas</a>
+        </li>
+    </ol>
+    <h3>Enlaces internos</h3>
+    <a href="#PaginaInicio">inicio</a>
+    <hr>
+    <br>
+    <h2>Formularios</h2>
+    <form>
+        <label for="">Nombre</label>
+        <!--input es una entrada en el formulario-->
+        <!--En el atributo type se especializa de entrada o datos que va a ingresar-->
+        <input type="text" placeholder="Ingrese su Nombre"><br>
+        <label for="">Edad</label><br>
+        <!-- el tipo numerico solo recibe numeros -->
+        <input type="number"><br>
+        <!-- Para crear un comentario rapido es con Ctrl + } -->
+        <label for="">contraseña</label>
+        <input type="password"> <br>
+        <label for="">Correo</label>
+        <input type="email" name="" id="" required>
+        <input type="submit" value="Registrar"><br>
+        <!-- -->
+        <label for="">Fecha de nacimiento</label>
+        <input type="date" name="" id="">
+    </form>
+</body>
+</html>
